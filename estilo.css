@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center ;
+  background-color: #D2E3E9;
+  align-items: center;
+}
+
+.card {
+  
+  background-color: white;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px;
+}
+
+.background-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  
+  height: 150px;
+  background-image: url(https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-position: center center;
+}
+
+.background-img button {
+  
+  background-color: #4F6386;
+  border: none;
+  width: 30%;
+  margin: 4px;
+  color: white;
+  
+}
+
+.card p, h3, h1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px;
+  word-wrap: break-word;
+ 
+}
+
+.card h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.card h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.card p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.buton {
+  border: none;
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+}
+
+.buton:hover {
+  background-color: #D2E3E9; 
+}
+
+hr {
+  border: 1px solid gray;
+  opacity: 50% ;
+  margin-top: 40px;;
+}
